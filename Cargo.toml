@@ -1,0 +1,11 @@
+[package]
+name = "epoch-reset-array"
+version = "0.1.0"
+description = "An array that can be reset in O(1) time using an epoch counter."
+authors = ["Sebastian Schmidt <sebastian.schmidt@helsinki.fi>"]
+license = "BSD-2-Clause"
+repository = "https://github.com/sebschmi/epoch-reset-array"
+
+edition = "2024"
+
+[dependencies]
