@@ -9,3 +9,4 @@ repository = "https://github.com/sebschmi/epoch-reset-array"
 edition = "2024"
 
 [dependencies]
+num-traits = "0.2.19"
