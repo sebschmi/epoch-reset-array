@@ -7,6 +7,9 @@ use std::{
 
 use num_traits::{CheckedAdd, One, Zero};
 
+#[cfg(test)]
+mod tests;
+
 pub trait EpochResetArrayIndex: TryFrom<usize> + TryInto<usize> + Display + Copy {}
 
 impl<T: TryFrom<usize> + TryInto<usize> + Display + Copy> EpochResetArrayIndex for T {}
